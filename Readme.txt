@@ -23,3 +23,5 @@ Overall, the app enables users to input a stock ticker, select a dataset, visual
 
 The dataset is imported from Yahoo finance.
 Many modules had been deprecated , so I have made changes.
+
+When using terminal for the code - set the directory using - cd {address of code} - streamlit run main.py
