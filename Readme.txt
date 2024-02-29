@@ -1,16 +1,22 @@
 Stock-prediction-using-Time-series-and-Streamlit-for-frontend
-The code provided is a Python script for disease prediction using different types of machine learning algorithms. Here's a summary of what the script does:
+This Python script utilizes Streamlit to create a stock prediction app. Here's a summary of its functionality:
 
-1. Import necessary libraries including Streamlit, pandas, numpy, matplotlib, nltk, and scikit-learn modules.
-2. Creates a simple frontend using Streamlit for users to input medical issue descriptions.
-3. Reads data from a CSV file containing symptom-disease mappings.
-4. Cleans the text data by removing punctuation and stopwords using NLTK.
-5. Visualizes frequent words in the dataset using a word cloud.
-6. Splits the data into training and testing sets.
-7. Implements text vectorization using TF-IDF (Term Frequency-Inverse Document Frequency).
-8. Provides options for model selection including K-Nearest Neighbors (KNN), Support Vector Machines (SVM), Random Forest Classifier (RFC), and Neural Networks (NN).
-9. Trains and evaluates the selected model on the dataset.
-10. Makes predictions on custom test cases provided in the script.
-11. Displays accuracy scores and classification reports for model evaluation.
+1. **Data Loading and Selection**:
+   - Users can input a stock ticker or choose from examples (AAPL, GOOG, MSFT, GME).
+   - They can select the dataset for prediction and specify the number of years for forecasting.
 
-Overall, the script provides a user-friendly interface for disease prediction based on symptom descriptions using various machine learning techniques.
+2. **Data Visualization**:
+   - The app displays raw stock data, including open and close prices, in a time series format.
+
+3. **Forecasting**:
+   - The script uses the Prophet library for time series forecasting.
+   - It trains the model on the selected stock's closing prices and forecasts future prices.
+   - Evaluation metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) are calculated and displayed.
+
+4. **Forecast Display**:
+   - The app shows the forecasted prices for the next week, month, and year based on the selected dataset.
+
+5. **Visualization of Forecast Data**:
+   - It provides interactive charts displaying the forecasted trends and components (trend, seasonality) using Plotly.
+
+Overall, the app enables users to input a stock ticker, select a dataset, visualize historical data, predict future stock prices, evaluate the model's performance, and view forecasted trends and components.
