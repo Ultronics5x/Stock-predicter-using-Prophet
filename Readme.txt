@@ -20,3 +20,6 @@ This Python script utilizes Streamlit to create a stock prediction app. Here's a
    - It provides interactive charts displaying the forecasted trends and components (trend, seasonality) using Plotly.
 
 Overall, the app enables users to input a stock ticker, select a dataset, visualize historical data, predict future stock prices, evaluate the model's performance, and view forecasted trends and components.
+
+The dataset is imported from Yahoo finance.
+Many modules had been deprecated , so I have made changes.
