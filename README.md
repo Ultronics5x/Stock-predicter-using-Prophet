@@ -1,4 +1,4 @@
-# Stock-Predictor
+# Stock-Predictor-using-ML
 This Python script utilizes Streamlit to create a stock prediction app. Here's a summary of its functionality:
 
 1. **Data Loading and Selection**:
